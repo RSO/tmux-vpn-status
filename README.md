@@ -29,7 +29,7 @@ Add plugin to the list of TPM plugins in `.tmux.conf`:
 
 Hit `prefix + I` to fetch the plugin and source it.
 
-`#{online_status}` interpolation should now work.
+`#{vpn_status}` interpolation should now work.
 
 ## Manual Installation
 
@@ -46,7 +46,7 @@ Reload TMUX environment:
     # type this in terminal
     $ tmux source-file ~/.tmux.conf
 
-`#{online_status}` interpolation should now work.
+`#{vpn_status}` interpolation should now work.
 
 ## License
 
