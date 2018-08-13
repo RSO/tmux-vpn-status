@@ -9,8 +9,8 @@ source $CURRENT_DIR/scripts/shared.sh
 
 do_interpolation() {
 	local string="$1"
-	local interpolated="${string/vpn_status_interpolation_string/vpn_status}"
-	echo "$interpolated"
+	local interpolated="${string/$vpn_status_interpolation_string/$vpn_status}"
+  echo "$interpolated"
 }
 
 update_tmux_option() {
